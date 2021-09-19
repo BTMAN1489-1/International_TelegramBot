@@ -1,0 +1,6 @@
+{
+  "start_text": "Hello {username}\nI'm a telegram bot that doesn't do anything yet.\n\nFor more information, enter <b>\/help<\/b>.",
+  "help_text": "This bot, which by the way is called {botname}, is currently nothingcan.\nTo see the entire list of commands in your private chat with the bot enter <b>\/commands<\/b>",
+  "commands_text": "Here is a list of the currently available commands:\n\n",
+  "welcome": "Welcome {username} to our small but cozy chat undername {chatname}"
+}

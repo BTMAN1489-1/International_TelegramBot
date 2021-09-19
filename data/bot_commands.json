@@ -1,0 +1,9 @@
+{
+  "default_commands": {
+    "help": "Enter for reference",
+    "commands": "Enter to get a list of available commands in your private chat with the bot",
+    "welcome": "Enter to introduce yourself to the bot",
+    "cancel": "Enter to undo the action"
+  },
+  "admin_commands": {}
+}

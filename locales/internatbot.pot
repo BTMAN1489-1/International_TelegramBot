@@ -1,0 +1,86 @@
+# Translations template for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-09-14 22:23+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: translate_row.py:1
+msgid "Enter for reference"
+msgstr ""
+
+#: translate_row.py:4
+msgid "Enter to get a list of available commands in your private chat with the bot"
+msgstr ""
+
+#: translate_row.py:7
+msgid "Enter to introduce yourself to the bot"
+msgstr ""
+
+#: translate_row.py:10
+msgid "Enter to undo the action"
+msgstr ""
+
+#: translate_row.py:13
+msgid ""
+"Hello {username}\n"
+"I'm a telegram bot that doesn't do anything yet.\n"
+"\n"
+"For more information, enter <b>/help</b>."
+msgstr ""
+
+#: translate_row.py:16
+msgid ""
+"This bot, which by the way is called {botname}, is currently nothingcan.\n"
+"To see the entire list of commands in your private chat with the bot enter <b>/commands</b>"
+msgstr ""
+
+#: translate_row.py:19
+msgid ""
+"Here is a list of the currently available commands:\n"
+"\n"
+msgstr ""
+
+#: translate_row.py:22
+msgid "Welcome {username} to our small but cozy chat undername {chatname}"
+msgstr ""
+
+#: translate_row.py:26
+msgid "Hi, What is your name?"
+msgstr ""
+
+#: translate_row.py:29
+msgid "Are you 0 years old?"
+msgstr ""
+
+#: translate_row.py:31
+msgid "Are you {age} years old?"
+msgstr ""
+
+#: translate_row.py:33
+msgid "I see you are {age} years old"
+msgstr ""
+
+#: translate_row.py:35
+msgid "What's your gender?"
+msgstr ""
+
+#: translate_row.py:37
+msgid "Your name: {name}. Your age: {age} years. Your gender: {gender}"
+msgstr ""
+
+#: translate_row.py:39
+msgid "Confirm"
+msgstr ""

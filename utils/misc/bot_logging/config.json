@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "handlers": {
+    "console": {
+      "class": "logging.StreamHandler",
+      "level": "INFO",
+      "formatter": "fmt"
+    },
+    "warn_file": {
+      "class": "logging.FileHandler",
+      "level": "WARNING",
+      "formatter": "fmt",
+      "encoding": "UTF-8",
+      "mode": "w",
+      "filename": "utils/misc/bot_logging/logs/warning/bot_log.log"
+    },
+    "info_file": {
+      "class": "logging.handlers.RotatingFileHandler",
+      "level": "INFO",
+      "formatter": "fmt",
+      "maxBytes": 8192,
+      "backupCount": 20,
+      "encoding": "UTF-8",
+      "mode": "w",
+      "filename": "utils/misc/bot_logging/logs/info/bot_log.log"
+    },
+    "error_file": {
+      "class": "logging.FileHandler",
+      "level": "ERROR",
+      "formatter": "fmt",
+      "encoding": "UTF-8",
+      "mode": "w",
+      "filename": "utils/misc/bot_logging/logs/error/bot_log.log"
+    },
+    "debug_file": {
+      "class": "logging.handlers.RotatingFileHandler",
+      "level": "DEBUG",
+      "formatter": "fmt",
+      "maxBytes": 8192,
+      "backupCount": 20,
+      "encoding": "UTF-8",
+      "mode": "w",
+      "filename": "utils/misc/bot_logging/logs/debug/bot_log.log"
+    },
+    "critical_file": {
+      "class": "logging.FileHandler",
+      "level": "CRITICAL",
+      "formatter": "fmt",
+      "encoding": "UTF-8",
+      "mode": "w",
+      "filename": "utils/misc/bot_logging/logs/critical/bot_log.log"
+    },
+    "critical_memory": {
+      "class": "logging.handlers.MemoryHandler",
+      "level": "CRITICAL",
+      "flushLevel": 50,
+      "target": "critical_file",
+      "formatter": "fmt",
+      "capacity": 8
+    }
+  },
+  "formatters": {
+    "fmt": {
+      "format": "[%(levelname)s] %(name)s %(asctime)s,%(msecs)d %(module)s.%(funcName)s.lineno(%(lineno)d) massage: %(message)s",
+      "datefmt": "%Y/%m/%d-%H:%M:%S"
+    }
+  },
+  "loggers": {
+    "root": {
+      "level": "INFO",
+      "handlers": [
+        "console",
+        "warn_file",
+        "error_file",
+        "info_file",
+        "critical_memory"
+      ]
+    }
+  }
+}
